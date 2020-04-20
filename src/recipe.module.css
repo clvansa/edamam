@@ -1,0 +1,47 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    min-width:400px ;
+    max-width: 600px;
+    padding: 20px;
+    text-overflow: scroll;
+   
+}
+
+.image{
+    border-radius: 10px;
+    padding: 5px;
+    object-fit: fill;
+}
+
+
+
+.table{
+    display: none;
+   
+}
+
+
+
+
+ .table-activ tr , th ,td {
+    border: 1px solid rgb(34, 33, 33);
+    text-align: center;
+    width: 120px;
+
+}
+
+ .table-activ{
+    display: table !important;
+    table-layout: fixed;
+    width: 400px;
+    margin: 5px;
+    border: 10px solid rgb(34, 33, 33);
+  
+}

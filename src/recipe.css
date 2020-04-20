@@ -1,0 +1,84 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    min-width:400px ;
+    max-width: 600px;
+    padding: 20px;
+    text-overflow: scroll;
+   
+}
+
+.image{
+    border-radius: 10px;
+    padding: 5px;
+    object-fit: fill;
+}
+
+
+
+.table{
+   display: none;
+   
+}
+
+
+
+
+ .table-active tr , th ,td {
+    border: 1px solid rgb(34, 33, 33);
+    text-align: center;
+    width: 120px;
+
+}
+
+
+ .table-active{
+    display: table !important;
+    table-layout: fixed;
+    width: 400px;
+    margin: 5px;
+    border-collapse: collapse;
+
+
+  
+
+  
+}
+
+ .table tr:first-child th{
+    background-color: red;
+    color: white;
+    height: 25px;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(239, 240, 239);
+}
+
+tr:nth-child(odd){
+    background-color: rgba(60, 61, 61, 0.329);
+}
+
+.unit{
+    color: rgb(9, 20, 16);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a{
+    color :red;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+a:hover{
+    color:black;
+}
